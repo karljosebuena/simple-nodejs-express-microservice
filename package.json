@@ -1,0 +1,24 @@
+{
+  "name": "microservice-with-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karl Jose Buena",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker"
+  ],
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
